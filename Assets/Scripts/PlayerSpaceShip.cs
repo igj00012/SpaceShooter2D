@@ -68,4 +68,12 @@ public class PlayerSpaceShip : MonoBehaviour
     {
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("EnemyShot") || collision.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

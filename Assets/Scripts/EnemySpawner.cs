@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] GameObject[] enemiesPrefab;
 
     public enum SpawnMode
     {
@@ -32,7 +32,8 @@ public class EnemySpawner : MonoBehaviour
 
             Vector3 startPosition = spawnPoints[j].position;
 
-            Instantiate(enemyPrefab, startPosition, Quaternion.identity);
+            int enemyIndex = Random.Range(0, enemiesPrefab.Length);
+            Instantiate(enemiesPrefab[enemyIndex], startPosition, Quaternion.identity);
         }
     }
 
@@ -46,7 +47,8 @@ public class EnemySpawner : MonoBehaviour
             float t = Random.Range(0f, 1f);
             Vector3 startPosition = Vector3.Lerp(lineTop, lineBottom, t);
 
-            Instantiate(enemyPrefab, startPosition, Quaternion.identity);
+            int enemyIndex = Random.Range(0, enemiesPrefab.Length);
+            Instantiate(enemiesPrefab[enemyIndex], startPosition, Quaternion.identity);
 
             yield return new WaitForSeconds(0.5f);
         }
