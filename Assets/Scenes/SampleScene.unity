@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &14554841
 Transform:
   m_ObjectHideFlags: 0
@@ -502,6 +502,7 @@ MonoBehaviour:
   maxSpeed: 2
   acceleration: 1
   projectilePrefab: {fileID: 1369083391994491780, guid: 440a51447bb21c54789fceae3ceb8ab2, type: 3}
+  health: 10
   move: {fileID: -8035497381898570515, guid: 16881c8a61d55c645a17fbcd29082c90, type: 3}
   shoot: {fileID: 1075335348807499094, guid: 16881c8a61d55c645a17fbcd29082c90, type: 3}
 --- !u!212 &1071415715
@@ -655,6 +656,7 @@ MonoBehaviour:
   enemiesPrefab:
   - {fileID: 7395745708768184949, guid: 44de09b0c23e8904382869cb9d19148b, type: 3}
   - {fileID: 1260086602012654933, guid: 8ebb805c584744c419ae1e1352f55634, type: 3}
+  - {fileID: 5854325438435045074, guid: 595cc918ce6149045b12edd7359237fa, type: 3}
   spawnMode: 0
   spawnLineTop: {fileID: 161876851}
   spawnLineBottom: {fileID: 1365265822}

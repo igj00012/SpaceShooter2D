@@ -1,14 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class ShooterEnemy : MonoBehaviour
+public class ShooterEnemy : EnemyBase
 {
     [Header("Movement")]
     [SerializeField] float speed = 1f;
 
     [Header("Shooting")]
     [SerializeField] GameObject shootPrefab;
-    float delay = 1.5f;
+    float delay = 2f;
 
     Vector3 linearVelocity = Vector3.down;
 
@@ -40,14 +40,6 @@ public class ShooterEnemy : MonoBehaviour
         {
             Instantiate(shootPrefab, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(delay);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("PlayerShot"))
-        {
-            Destroy(gameObject);
         }
     }
 }

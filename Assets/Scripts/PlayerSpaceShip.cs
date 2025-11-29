@@ -10,6 +10,7 @@ public class PlayerSpaceShip : MonoBehaviour
 
     [Header("Shooting")]
     [SerializeField] GameObject projectilePrefab;
+    [SerializeField] int health = 10;
 
     [Header("Actions")]
     [SerializeField] InputActionReference move;
@@ -44,6 +45,8 @@ public class PlayerSpaceShip : MonoBehaviour
         currentVelocity = currentVelocity.normalized * linearVelocity;
 
         transform.Translate(currentVelocity * Time.deltaTime);
+
+        Debug.Log("Health: " + health);
     }
 
     private void OnDisable()
@@ -56,6 +59,11 @@ public class PlayerSpaceShip : MonoBehaviour
         move.action.canceled -= OnMove;
 
         shoot.action.started += OnShoot;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
     }
 
     Vector2 rawMove;
@@ -75,5 +83,7 @@ public class PlayerSpaceShip : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        //Explosion
     }
 }

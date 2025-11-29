@@ -1,7 +1,7 @@
 using Unity.Jobs;
 using UnityEngine;
 
-public class MeleeEnemy : MonoBehaviour
+public class MeleeEnemy : EnemyBase
 {
     [SerializeField] float speed = 1f;
     Vector3 linearVelocity = Vector3.left;
@@ -22,21 +22,19 @@ public class MeleeEnemy : MonoBehaviour
             linearVelocity = Vector3.right;
         }
 
-        if(transform.position.x > 2f)
+        if(transform.position.x > 1.5f)
         {
-            Destroy(gameObject);
+            linearVelocity = Vector3.left;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected override void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("PlayerShot"))
-        {
-            Destroy(gameObject);
-        }
+        base.OnTriggerEnter2D(collision);
 
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
+            collision.GetComponent<PlayerSpaceShip>().TakeDamage(damage);
             Destroy(collision.gameObject);
         }
     }
