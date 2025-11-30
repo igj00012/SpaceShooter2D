@@ -3,26 +3,22 @@ using UnityEngine;
 
 public class MeleeEnemy : EnemyBase
 {
+    [Header("Movement")]
     [SerializeField] float speed = 1f;
     Vector3 linearVelocity = Vector3.left;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
+    float limitX = 1.5f;
     // Update is called once per frame
     void Update()
     {
         transform.Translate(linearVelocity * speed * Time.deltaTime);
 
-        if(transform.position.x < -1.5f)
+        if(transform.position.x < -limitX)
         {
             linearVelocity = Vector3.right;
         }
 
-        if(transform.position.x > 1.5f)
+        if(transform.position.x > limitX)
         {
             linearVelocity = Vector3.left;
         }
