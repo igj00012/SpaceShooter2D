@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 4891b81d310fefc4689362d6c9e95d97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4106119725598647739
+    second: SpaceShips_Player-0001-Rotado_0
+  - first:
+      213: 7997132857364696116
+    second: SpaceShips_Player-0001-Rotado_1
+  - first:
+      213: -5801950411648387498
+    second: SpaceShips_Player-0001-Rotado_2
+  - first:
+      213: 3505556709532595701
+    second: SpaceShips_Player-0001-Rotado_3
+  - first:
+      213: 8338512882231200876
+    second: SpaceShips_Player-0001-Rotado_4
+  - first:
+      213: 6877406888615120430
+    second: SpaceShips_Player-0001-Rotado_5
+  - first:
+      213: 3511857281264685768
+    second: SpaceShips_Player-0001-Rotado_6
+  - first:
+      213: 2307222919606829655
+    second: SpaceShips_Player-0001-Rotado_7
+  - first:
+      213: 4107264889258755660
+    second: SpaceShips_Player-0001-Rotado_8
+  - first:
+      213: 2348993344760632912
+    second: SpaceShips_Player-0001-Rotado_9
+  - first:
+      213: 3159957483651501396
+    second: SpaceShips_Player-0001-Rotado_10
+  - first:
+      213: -955970835968628370
+    second: SpaceShips_Player-0001-Rotado_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 186
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ad77e5dd12407c0800000000000000
+      internalID: -4106119725598647739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 186
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cc3d096f58bfe60800000000000000
+      internalID: 7997132857364696116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656344537d45b7fa0800000000000000
+      internalID: -5801950411648387498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 106
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f57dab014d36a030800000000000000
+      internalID: 3505556709532595701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 98
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cc86c794958b370800000000000000
+      internalID: 8338512882231200876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 139
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e8abb8025717f50800000000000000
+      internalID: 6877406888615120430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c296a7379f9cb030800000000000000
+      internalID: 3511857281264685768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 75
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7520ecc6507e40020800000000000000
+      internalID: 2307222919606829655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46c3b2d7afeff830800000000000000
+      internalID: 4107264889258755660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056d636600d499020800000000000000
+      internalID: 2348993344760632912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 10
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d8266d69c6adb20800000000000000
+      internalID: 3159957483651501396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Player-0001-Rotado_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 12
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69e472f695bbb2f0800000000000000
+      internalID: -955970835968628370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpaceShips_Player-0001-Rotado_0: -4106119725598647739
+      SpaceShips_Player-0001-Rotado_1: 7997132857364696116
+      SpaceShips_Player-0001-Rotado_10: 3159957483651501396
+      SpaceShips_Player-0001-Rotado_11: -955970835968628370
+      SpaceShips_Player-0001-Rotado_2: -5801950411648387498
+      SpaceShips_Player-0001-Rotado_3: 3505556709532595701
+      SpaceShips_Player-0001-Rotado_4: 8338512882231200876
+      SpaceShips_Player-0001-Rotado_5: 6877406888615120430
+      SpaceShips_Player-0001-Rotado_6: 3511857281264685768
+      SpaceShips_Player-0001-Rotado_7: 2307222919606829655
+      SpaceShips_Player-0001-Rotado_8: 4107264889258755660
+      SpaceShips_Player-0001-Rotado_9: 2348993344760632912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

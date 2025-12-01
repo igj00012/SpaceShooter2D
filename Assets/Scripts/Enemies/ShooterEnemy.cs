@@ -8,7 +8,6 @@ public class ShooterEnemy : EnemyBase
 
     [Header("Shooting")]
     [SerializeField] GameObject shootPrefab;
-    float delay = 2f;
 
     Vector3 linearVelocity = Vector3.up;
 

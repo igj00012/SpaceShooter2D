@@ -7,6 +7,8 @@ public class MeleeEnemy : EnemyBase
     [SerializeField] float speed = 1f;
     Vector3 linearVelocity = Vector3.left;
 
+    [SerializeField] int damage = 2;
+
     float limitX = 1.5f;
     // Update is called once per frame
     void Update()
@@ -31,7 +33,7 @@ public class MeleeEnemy : EnemyBase
         if (collision.CompareTag("Player"))
         {
             collision.GetComponent<PlayerSpaceShip>().TakeDamage(damage);
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }

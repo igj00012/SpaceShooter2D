@@ -8,7 +8,6 @@ public class ExplosiveEnemy : EnemyBase
     Vector3 linearVelocity = Vector3.up;
 
     [Header("Shooting")]
-    float delay = 5f;
     [SerializeField] GameObject explosionShoot;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

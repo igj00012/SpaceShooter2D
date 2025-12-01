@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 9874eb091dd2e0845b420ec1d4bf60a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1018782479776669207
+    second: Bullets-0001-Rotado_0
+  - first:
+      213: -7390974405565163254
+    second: Bullets-0001-Rotado_1
+  - first:
+      213: 8272872795908414273
+    second: Bullets-0001-Rotado_2
+  - first:
+      213: -8512911654777547471
+    second: Bullets-0001-Rotado_3
+  - first:
+      213: 6058075375362843026
+    second: Bullets-0001-Rotado_4
+  - first:
+      213: -822399328708928996
+    second: Bullets-0001-Rotado_5
+  - first:
+      213: 1381790936825835605
+    second: Bullets-0001-Rotado_6
+  - first:
+      213: -8902412545906380433
+    second: Bullets-0001-Rotado_7
+  - first:
+      213: -5302233023001293519
+    second: Bullets-0001-Rotado_8
+  - first:
+      213: 4040318977572857007
+    second: Bullets-0001-Rotado_9
+  - first:
+      213: 7733472725136737368
+    second: Bullets-0001-Rotado_10
+  - first:
+      213: -7553436434923914410
+    second: Bullets-0001-Rotado_11
+  - first:
+      213: 7772297076971267679
+    second: Bullets-0001-Rotado_12
+  - first:
+      213: 2417363058339567932
+    second: Bullets-0001-Rotado_13
+  - first:
+      213: -3677124732318867363
+    second: Bullets-0001-Rotado_14
+  - first:
+      213: 1735282652445240771
+    second: Bullets-0001-Rotado_15
+  - first:
+      213: 3507624474090779560
+    second: Bullets-0001-Rotado_16
+  - first:
+      213: 243280448712093225
+    second: Bullets-0001-Rotado_17
+  - first:
+      213: 7785254222311814719
+    second: Bullets-0001-Rotado_18
+  - first:
+      213: -7190234342976216615
+    second: Bullets-0001-Rotado_19
+  - first:
+      213: 4032538189268425938
+    second: Bullets-0001-Rotado_20
+  - first:
+      213: -4759829766915763617
+    second: Bullets-0001-Rotado_21
+  - first:
+      213: -5468499297202675397
+    second: Bullets-0001-Rotado_22
+  - first:
+      213: -4056889009507298352
+    second: Bullets-0001-Rotado_23
+  - first:
+      213: 8370832404265017338
+    second: Bullets-0001-Rotado_24
+  - first:
+      213: 5581724268591992647
+    second: Bullets-0001-Rotado_25
+  - first:
+      213: -6507926359795609515
+    second: Bullets-0001-Rotado_26
+  - first:
+      213: 5497479554683906011
+    second: Bullets-0001-Rotado_27
+  - first:
+      213: 6289727992025933232
+    second: Bullets-0001-Rotado_28
+  - first:
+      213: 4331634833398793080
+    second: Bullets-0001-Rotado_29
+  - first:
+      213: 3580583416756408935
+    second: Bullets-0001-Rotado_30
+  - first:
+      213: 4327730625260971027
+    second: Bullets-0001-Rotado_31
+  - first:
+      213: 7179775624764444105
+    second: Bullets-0001-Rotado_32
+  - first:
+      213: -5536565519681150917
+    second: Bullets-0001-Rotado_33
+  - first:
+      213: 1031708876502733707
+    second: Bullets-0001-Rotado_34
+  - first:
+      213: 2430940906562395882
+    second: Bullets-0001-Rotado_35
+  - first:
+      213: 7237384463685521335
+    second: Bullets-0001-Rotado_36
+  - first:
+      213: -8574621909599577347
+    second: Bullets-0001-Rotado_37
+  - first:
+      213: 2863333959362766092
+    second: Bullets-0001-Rotado_38
+  - first:
+      213: 3081759385972946416
+    second: Bullets-0001-Rotado_39
+  - first:
+      213: -2164981909549587353
+    second: Bullets-0001-Rotado_40
+  - first:
+      213: -625717693503365885
+    second: Bullets-0001-Rotado_41
+  - first:
+      213: -1042758768755382113
+    second: Bullets-0001-Rotado_42
+  - first:
+      213: -6683442341378327282
+    second: Bullets-0001-Rotado_43
+  - first:
+      213: -2690002144750573616
+    second: Bullets-0001-Rotado_44
+  - first:
+      213: -1848363069315557996
+    second: Bullets-0001-Rotado_45
+  - first:
+      213: -1174707098475432796
+    second: Bullets-0001-Rotado_46
+  - first:
+      213: 4213780326183284590
+    second: Bullets-0001-Rotado_47
+  - first:
+      213: 7519425197935550434
+    second: Bullets-0001-Rotado_48
+  - first:
+      213: -867438700874152977
+    second: Bullets-0001-Rotado_49
+  - first:
+      213: -4272588348656542544
+    second: Bullets-0001-Rotado_50
+  - first:
+      213: -2125427441020968544
+    second: Bullets-0001-Rotado_51
+  - first:
+      213: 5563117703313552226
+    second: Bullets-0001-Rotado_52
+  - first:
+      213: -2857980530480572137
+    second: Bullets-0001-Rotado_53
+  - first:
+      213: -4813151169729703089
+    second: Bullets-0001-Rotado_54
+  - first:
+      213: 3449386763047446262
+    second: Bullets-0001-Rotado_55
+  - first:
+      213: 1616606869069496331
+    second: Bullets-0001-Rotado_56
+  - first:
+      213: 6402386881493519708
+    second: Bullets-0001-Rotado_57
+  - first:
+      213: 6858354935098328729
+    second: Bullets-0001-Rotado_58
+  - first:
+      213: 2598828777659469537
+    second: Bullets-0001-Rotado_59
+  - first:
+      213: 1898527042295065265
+    second: Bullets-0001-Rotado_60
+  - first:
+      213: 6413579926854064892
+    second: Bullets-0001-Rotado_61
+  - first:
+      213: -2171962071725470562
+    second: Bullets-0001-Rotado_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1258d7bbe8cd1f0800000000000000
+      internalID: -1018782479776669207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09d84cefebfd6990800000000000000
+      internalID: -7390974405565163254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b1d10f9f52fc270800000000000000
+      internalID: 8272872795908414273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13593bc04ff0cd980800000000000000
+      internalID: -8512911654777547471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912b03f47b921450800000000000000
+      internalID: 6058075375362843026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ad8c4fa204694f0800000000000000
+      internalID: -822399328708928996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550bb57398b1d2310800000000000000
+      internalID: 1381790936825835605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61f44dd4f6447480800000000000000
+      internalID: -8902412545906380433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d89a3782faa66b0800000000000000
+      internalID: -5302233023001293519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4ef7d14b8121830800000000000000
+      internalID: 4040318977572857007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85482f54870d25b60800000000000000
+      internalID: 7733472725136737368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bfdde059dcc2790800000000000000
+      internalID: -7553436434923914410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56eda9130fbcdb60800000000000000
+      internalID: 7772297076971267679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c395b71d4e23c8120800000000000000
+      internalID: 2417363058339567932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50a457c98a38fcc0800000000000000
+      internalID: -3677124732318867363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd65e3e066f41810800000000000000
+      internalID: 1735282652445240771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3b5afffd59da030800000000000000
+      internalID: 3507624474090779560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e2846774e406300800000000000000
+      internalID: 243280448712093225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3671079777ca0c60800000000000000
+      internalID: 7785254222311814719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1a617e5f7273c90800000000000000
+      internalID: -7190234342976216615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9a8a2e1476f730800000000000000
+      internalID: 4032538189268425938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d7afab00b1fdb0800000000000000
+      internalID: -4759829766915763617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31e2cfccdcfb14b0800000000000000
+      internalID: -5468499297202675397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3912fa0f803b7c0800000000000000
+      internalID: -4056889009507298352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff9b8a98bb2b2470800000000000000
+      internalID: 8370832404265017338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f4a9726a4467d40800000000000000
+      internalID: 5581724268591992647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5505bfbc4733fa5a0800000000000000
+      internalID: -6507926359795609515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd728e03788fa4c40800000000000000
+      internalID: 5497479554683906011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5698ac84a994750800000000000000
+      internalID: 6289727992025933232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 148
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87381755eee0d1c30800000000000000
+      internalID: 4331634833398793080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629b6495a9c0b130800000000000000
+      internalID: 3580583416756408935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314624a03103f0c30800000000000000
+      internalID: 4327730625260971027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdc71104efa3a360800000000000000
+      internalID: 7179775624764444105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30aabb6efa2a23b0800000000000000
+      internalID: -5536565519681150917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b831097c1cd515e00800000000000000
+      internalID: 1031708876502733707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_35
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 133
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee1e95ffdf6cb120800000000000000
+      internalID: 2430940906562395882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf08ec03da507460800000000000000
+      internalID: 7237384463685521335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa1903bdc2d00980800000000000000
+      internalID: -8574621909599577347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c056121c01b9cb720800000000000000
+      internalID: 2863333959362766092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5b42c65db94ca20800000000000000
+      internalID: 3081759385972946416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_40
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76466208c6074f1e0800000000000000
+      internalID: -2164981909549587353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_41
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d1e0da2110157f0800000000000000
+      internalID: -625717693503365885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9869e1bc606781f0800000000000000
+      internalID: -1042758768755382113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0df655d994af33a0800000000000000
+      internalID: -6683442341378327282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d76a153d413baad0800000000000000
+      internalID: -2690002144750573616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_45
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495de7dd49b4956e0800000000000000
+      internalID: -1848363069315557996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4fd382e1a92bfe0800000000000000
+      internalID: -1174707098475432796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f2faf81ea5a7a30800000000000000
+      internalID: 4213780326183284590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efd11eb06d5a5860800000000000000
+      internalID: 7519425197935550434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe348f1f81d36f3f0800000000000000
+      internalID: -867438700874152977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc9ad6b887b4b4c0800000000000000
+      internalID: -4272588348656542544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1e31ed007f082e0800000000000000
+      internalID: -2125427441020968544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263f0b5931a243d40800000000000000
+      internalID: 5563117703313552226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 68
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71919b989d96658d0800000000000000
+      internalID: -2857980530480572137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4351062380443db0800000000000000
+      internalID: -4813151169729703089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_55
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 16
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6a0604cfeaedf20800000000000000
+      internalID: 3449386763047446262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_56
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 16
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00085cd1675f6610800000000000000
+      internalID: 1616606869069496331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_57
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 8
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dca0a82f8d9d850800000000000000
+      internalID: 6402386881493519708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 7
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9964512f975cd2f50800000000000000
+      internalID: 6858354935098328729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 8
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee847c0105e01420800000000000000
+      internalID: 2598828777659469537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6870494ce85a10800000000000000
+      internalID: 1898527042295065265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_61
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa56be76fc910950800000000000000
+      internalID: 6413579926854064892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullets-0001-Rotado_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c8e29d004abd1e0800000000000000
+      internalID: -2171962071725470562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bullets-0001-Rotado_0: -1018782479776669207
+      Bullets-0001-Rotado_1: -7390974405565163254
+      Bullets-0001-Rotado_10: 7733472725136737368
+      Bullets-0001-Rotado_11: -7553436434923914410
+      Bullets-0001-Rotado_12: 7772297076971267679
+      Bullets-0001-Rotado_13: 2417363058339567932
+      Bullets-0001-Rotado_14: -3677124732318867363
+      Bullets-0001-Rotado_15: 1735282652445240771
+      Bullets-0001-Rotado_16: 3507624474090779560
+      Bullets-0001-Rotado_17: 243280448712093225
+      Bullets-0001-Rotado_18: 7785254222311814719
+      Bullets-0001-Rotado_19: -7190234342976216615
+      Bullets-0001-Rotado_2: 8272872795908414273
+      Bullets-0001-Rotado_20: 4032538189268425938
+      Bullets-0001-Rotado_21: -4759829766915763617
+      Bullets-0001-Rotado_22: -5468499297202675397
+      Bullets-0001-Rotado_23: -4056889009507298352
+      Bullets-0001-Rotado_24: 8370832404265017338
+      Bullets-0001-Rotado_25: 5581724268591992647
+      Bullets-0001-Rotado_26: -6507926359795609515
+      Bullets-0001-Rotado_27: 5497479554683906011
+      Bullets-0001-Rotado_28: 6289727992025933232
+      Bullets-0001-Rotado_29: 4331634833398793080
+      Bullets-0001-Rotado_3: -8512911654777547471
+      Bullets-0001-Rotado_30: 3580583416756408935
+      Bullets-0001-Rotado_31: 4327730625260971027
+      Bullets-0001-Rotado_32: 7179775624764444105
+      Bullets-0001-Rotado_33: -5536565519681150917
+      Bullets-0001-Rotado_34: 1031708876502733707
+      Bullets-0001-Rotado_35: 2430940906562395882
+      Bullets-0001-Rotado_36: 7237384463685521335
+      Bullets-0001-Rotado_37: -8574621909599577347
+      Bullets-0001-Rotado_38: 2863333959362766092
+      Bullets-0001-Rotado_39: 3081759385972946416
+      Bullets-0001-Rotado_4: 6058075375362843026
+      Bullets-0001-Rotado_40: -2164981909549587353
+      Bullets-0001-Rotado_41: -625717693503365885
+      Bullets-0001-Rotado_42: -1042758768755382113
+      Bullets-0001-Rotado_43: -6683442341378327282
+      Bullets-0001-Rotado_44: -2690002144750573616
+      Bullets-0001-Rotado_45: -1848363069315557996
+      Bullets-0001-Rotado_46: -1174707098475432796
+      Bullets-0001-Rotado_47: 4213780326183284590
+      Bullets-0001-Rotado_48: 7519425197935550434
+      Bullets-0001-Rotado_49: -867438700874152977
+      Bullets-0001-Rotado_5: -822399328708928996
+      Bullets-0001-Rotado_50: -4272588348656542544
+      Bullets-0001-Rotado_51: -2125427441020968544
+      Bullets-0001-Rotado_52: 5563117703313552226
+      Bullets-0001-Rotado_53: -2857980530480572137
+      Bullets-0001-Rotado_54: -4813151169729703089
+      Bullets-0001-Rotado_55: 3449386763047446262
+      Bullets-0001-Rotado_56: 1616606869069496331
+      Bullets-0001-Rotado_57: 6402386881493519708
+      Bullets-0001-Rotado_58: 6858354935098328729
+      Bullets-0001-Rotado_59: 2598828777659469537
+      Bullets-0001-Rotado_6: 1381790936825835605
+      Bullets-0001-Rotado_60: 1898527042295065265
+      Bullets-0001-Rotado_61: 6413579926854064892
+      Bullets-0001-Rotado_62: -2171962071725470562
+      Bullets-0001-Rotado_7: -8902412545906380433
+      Bullets-0001-Rotado_8: -5302233023001293519
+      Bullets-0001-Rotado_9: 4040318977572857007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

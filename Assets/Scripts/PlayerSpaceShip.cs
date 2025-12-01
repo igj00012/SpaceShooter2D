@@ -10,7 +10,7 @@ public class PlayerSpaceShip : MonoBehaviour
 
     [Header("Shooting")]
     [SerializeField] GameObject projectilePrefab;
-    [SerializeField] int health = 10;
+    [SerializeField] float health = 10;
 
     [Header("Actions")]
     [SerializeField] InputActionReference move;
@@ -61,9 +61,11 @@ public class PlayerSpaceShip : MonoBehaviour
         shoot.action.started += OnShoot;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
+
+        if (health <= 0) Destroy(gameObject);
     }
 
     Vector2 rawMove;
@@ -75,15 +77,5 @@ public class PlayerSpaceShip : MonoBehaviour
     private void OnShoot(InputAction.CallbackContext context)
     {
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("EnemyShot") || collision.CompareTag("Enemy"))
-        {
-            Destroy(gameObject);
-        }
-
-        //Explosion
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerShot : MonoBehaviour
 {
     [SerializeField] float speed = 1.5f;
-    [SerializeField] int damage = 1;
+    [SerializeField] float damage = 1f;
 
     // Update is called once per frame
     void Update()
@@ -11,7 +11,7 @@ public class PlayerShot : MonoBehaviour
         transform.Translate(Vector3.right * Time.deltaTime * speed);
     }
 
-    public int GetDamage()
+    public float GetDamage()
     {
         return damage;
     }

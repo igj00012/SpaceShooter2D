@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 3f90325079449224bb1c37448ebe7f83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7650251694029598170
+    second: SpaceShips_Enemy-0001-Rotado_0
+  - first:
+      213: -3127660069646651517
+    second: SpaceShips_Enemy-0001-Rotado_1
+  - first:
+      213: 3643261825056315721
+    second: SpaceShips_Enemy-0001-Rotado_2
+  - first:
+      213: 2554182266333650164
+    second: SpaceShips_Enemy-0001-Rotado_3
+  - first:
+      213: 5937263742225944119
+    second: SpaceShips_Enemy-0001-Rotado_4
+  - first:
+      213: 2298446428359846303
+    second: SpaceShips_Enemy-0001-Rotado_5
+  - first:
+      213: 7083160258861986149
+    second: SpaceShips_Enemy-0001-Rotado_6
+  - first:
+      213: -5991154037551344943
+    second: SpaceShips_Enemy-0001-Rotado_7
+  - first:
+      213: -7727846126011646776
+    second: SpaceShips_Enemy-0001-Rotado_8
+  - first:
+      213: 9065606169796496516
+    second: SpaceShips_Enemy-0001-Rotado_9
+  - first:
+      213: 57618675232170467
+    second: SpaceShips_Enemy-0001-Rotado_10
+  - first:
+      213: -7319522306154023744
+    second: SpaceShips_Enemy-0001-Rotado_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adde6f802672b2a60800000000000000
+      internalID: 7650251694029598170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 175
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fa98adcb15894d0800000000000000
+      internalID: -3127660069646651517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 175
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949193ab3577f8230800000000000000
+      internalID: 3643261825056315721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 118
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc5b641d37427320800000000000000
+      internalID: 2554182266333650164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 118
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e0f25aae5656250800000000000000
+      internalID: 5937263742225944119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9967a159d8b5ef10800000000000000
+      internalID: 2298446428359846303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561f1ac2ab07c4260800000000000000
+      internalID: 7083160258861986149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 73
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2da1535252bdca0800000000000000
+      internalID: -5991154037551344943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 73
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc723c64ec21c490800000000000000
+      internalID: -7727846126011646776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c4f40a7c08fcd70800000000000000
+      internalID: 9065606169796496516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 36
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e164ad31e3bcc000800000000000000
+      internalID: 57618675232170467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShips_Enemy-0001-Rotado_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 36
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c434283e35db6a90800000000000000
+      internalID: -7319522306154023744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpaceShips_Enemy-0001-Rotado_0: 7650251694029598170
+      SpaceShips_Enemy-0001-Rotado_1: -3127660069646651517
+      SpaceShips_Enemy-0001-Rotado_10: 57618675232170467
+      SpaceShips_Enemy-0001-Rotado_11: -7319522306154023744
+      SpaceShips_Enemy-0001-Rotado_2: 3643261825056315721
+      SpaceShips_Enemy-0001-Rotado_3: 2554182266333650164
+      SpaceShips_Enemy-0001-Rotado_4: 5937263742225944119
+      SpaceShips_Enemy-0001-Rotado_5: 2298446428359846303
+      SpaceShips_Enemy-0001-Rotado_6: 7083160258861986149
+      SpaceShips_Enemy-0001-Rotado_7: -5991154037551344943
+      SpaceShips_Enemy-0001-Rotado_8: -7727846126011646776
+      SpaceShips_Enemy-0001-Rotado_9: 9065606169796496516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class EnemyBase : MonoBehaviour
 {
-    [SerializeField] public int health = 5;
-    [SerializeField] public int damage = 1;
+    [SerializeField] public float health = 5;
+    [SerializeField] public float delay = 2f;
 
-    public void TakeDamage(int dmg)
+    public void TakeDamage(float dmg)
     {
         health -= dmg;
 
