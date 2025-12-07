@@ -10,11 +10,21 @@ public class PlayerSpaceShip : MonoBehaviour
 
     [Header("Shooting")]
     [SerializeField] GameObject projectilePrefab;
-    [SerializeField] float health = 10;
+    [SerializeField] float health = 10f;
 
     [Header("Actions")]
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference shoot;
+
+    [SerializeField] HPManager hpmanager;
+
+    private void Start()
+    {
+        if (hpmanager != null)
+        {
+            hpmanager.UpdateHP(health);
+        }
+    }
 
     private void OnEnable()
     {
@@ -64,6 +74,11 @@ public class PlayerSpaceShip : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+
+        if (hpmanager != null)
+        {
+            hpmanager.UpdateHP(health);
+        }
 
         if (health <= 0) Destroy(gameObject);
     }
