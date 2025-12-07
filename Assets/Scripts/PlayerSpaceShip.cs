@@ -16,8 +16,10 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference shoot;
 
+    [Header("References")]
     [SerializeField] HPManager hpmanager;
 
+    // Initialize health
     private void Start()
     {
         if (hpmanager != null)
@@ -26,6 +28,7 @@ public class PlayerSpaceShip : MonoBehaviour
         }
     }
 
+    // Activate input actions
     private void OnEnable()
     {
         move.action.Enable();
@@ -40,12 +43,13 @@ public class PlayerSpaceShip : MonoBehaviour
 
     Vector2 currentVelocity = Vector2.zero;
     const float rawMoveTresholdorBreaking = 0.1f;
+    const float velocityFactor = 0.1f;
     // Update is called once per frame
     void Update()
     {
         if (rawMove.magnitude < rawMoveTresholdorBreaking)
         {
-            currentVelocity *= 0.1f * Time.deltaTime; //variable el 0.1
+            currentVelocity *= velocityFactor * Time.deltaTime;
         }
 
         currentVelocity += rawMove * acceleration * Time.deltaTime;
@@ -59,6 +63,7 @@ public class PlayerSpaceShip : MonoBehaviour
         Debug.Log("Health: " + health);
     }
 
+    // Deactivate input actions
     private void OnDisable()
     {
         move.action.Disable();
@@ -71,6 +76,7 @@ public class PlayerSpaceShip : MonoBehaviour
         shoot.action.started += OnShoot;
     }
 
+    // Method that decrement current health
     public void TakeDamage(float damage)
     {
         health -= damage;
@@ -83,6 +89,7 @@ public class PlayerSpaceShip : MonoBehaviour
         if (health <= 0) Destroy(gameObject);
     }
 
+    // Input actions methods
     Vector2 rawMove;
     private void OnMove(InputAction.CallbackContext context)
     {

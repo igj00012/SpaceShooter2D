@@ -7,6 +7,7 @@ public class MeleeEnemy : EnemyBase
     [SerializeField] float speed = 1f;
     Vector3 linearVelocity = Vector3.left;
 
+    [Header("Damage")]
     [SerializeField] int damage = 2;
 
     float limitX = 1.5f;

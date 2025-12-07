@@ -3,7 +3,10 @@ using UnityEngine.UI;
 
 public class HPManager : MonoBehaviour
 {
+    [Header("Hearts")]
     [SerializeField] Image[] hearts;
+
+    [Header("Heart images")]
     [SerializeField] Sprite fullHeart;
     [SerializeField] Sprite emptyHeart;
 

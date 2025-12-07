@@ -3,12 +3,11 @@ using UnityEngine;
 public class FollowingShoot : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
-    GameObject target;
+    GameObject target; // Player
 
     float lifeTime = 2f;
-    float damage = 1.5f;
+    float damage = 2f;
 
-    Vector3 targetCurrentPostion;
     private void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
