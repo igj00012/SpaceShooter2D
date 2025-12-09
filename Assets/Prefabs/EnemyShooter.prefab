@@ -106,6 +106,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShooterEnemy
   health: 5
   delay: 2
+  buffsArray:
+  - {fileID: 3399809516143571232, guid: 35fa99f0c734263419f527c8a06ea060, type: 3}
+  - {fileID: 881580891211944009, guid: 9ea9b54dc7f75ec4fa82e96a862f0a50, type: 3}
+  - {fileID: 498335727264160447, guid: 3b5a65873dbc9bc4f869e0758aee4c7e, type: 3}
   speed: 1
   shootPrefab: {fileID: 7662246163553601117, guid: 531faec2580c56546a96c0d1b08805b9, type: 3}
 --- !u!61 &146547908484176147

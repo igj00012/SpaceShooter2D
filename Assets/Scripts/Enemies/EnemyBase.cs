@@ -44,4 +44,5 @@ public class EnemyBase : MonoBehaviour
             }
         }
     }
+
 }
