@@ -30,4 +30,6 @@ public class HPManager : MonoBehaviour
             }
         }
     }
+
+    public float GetMaxHealth() { return maxHealth; }
 }

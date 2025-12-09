@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3507624474090779560, guid: 9874eb091dd2e0845b420ec1d4bf60a3, type: 3}
+  m_Sprite: {fileID: -8400669974831641533, guid: c227e56c66c87b344b40708b91741824, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -142,7 +142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowingShoot
   speed: 1
-  target: {fileID: 6837662222847180489, guid: 5fd22b8446a242f46bbcb396675bdbe1, type: 3}
 --- !u!50 &-616185577457575743
 Rigidbody2D:
   serializedVersion: 5
