@@ -7,11 +7,14 @@ TagManager:
   - PlayerShot
   - Enemy
   - EnemyShot
+  - HealingPotion
+  - MultiShoot
+  - Shield
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
   - 

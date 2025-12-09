@@ -189,4 +189,9 @@ public class PlayerSpaceShip : MonoBehaviour
 
         multiShoots = false;
     }
+
+    private void OnDestroy()
+    {
+        GameObject.FindAnyObjectByType<UIManager>().GameOver();
+    }
 }
