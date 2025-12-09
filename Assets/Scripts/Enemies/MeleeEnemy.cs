@@ -8,7 +8,7 @@ public class MeleeEnemy : EnemyBase
     Vector3 linearVelocity = Vector3.left;
 
     [Header("Damage")]
-    [SerializeField] int damage = 2;
+    [SerializeField] float damage = 0.5f;
 
     float limitX = 1.5f;
     // Update is called once per frame

@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3211249881748089643}
   m_Layer: 0
   m_Name: EnemyBoss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,6 +180,7 @@ MonoBehaviour:
   - {fileID: 881580891211944009, guid: 9ea9b54dc7f75ec4fa82e96a862f0a50, type: 3}
   - {fileID: 498335727264160447, guid: 3b5a65873dbc9bc4f869e0758aee4c7e, type: 3}
   - {fileID: 3399809516143571232, guid: 35fa99f0c734263419f527c8a06ea060, type: 3}
+  explosion: {fileID: -7498612852817863271, guid: 8b3115b238e59de46ad080ad50309e1f, type: 3}
   laserPrefab: {fileID: 8884274421313776341, guid: f63bbfb594510774b9e00e433c628e84, type: 3}
   followingShootPrefab: {fileID: 2758488810445467089, guid: c712e3ede9074144896f3da4f5ea5259, type: 3}
   laserFirePoint: {fileID: 8399289321459477992}

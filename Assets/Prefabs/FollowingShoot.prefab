@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -616185577457575743}
   m_Layer: 0
   m_Name: FollowingShoot
-  m_TagString: Untagged
+  m_TagString: EnemyShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class EnemyLaser : MonoBehaviour
 {
-    float lifeTime = 3f;
-    float damage = 0.4f;
+    float lifeTime = 5;
+    float damage = 0.2f;
 
     // Update is called once per frame
     void Update()

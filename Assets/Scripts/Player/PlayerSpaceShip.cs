@@ -127,20 +127,29 @@ public class PlayerSpaceShip : MonoBehaviour
         {
             if (health < maxHealth)
             {
-                hpmanager.UpdateHP(health * 0.2f);
+                health += maxHealth * 0.2f;
+
+                if (health > maxHealth) health = maxHealth;
+
+                hpmanager.UpdateHP(health);
+
                 Destroy(collision.gameObject);
             }
         }
         else if (collision.CompareTag("Shield"))
         {
             shieldActivated = true;
+            
             StartCoroutine(Invulnerability());
+            
             Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("MultiShoot"))
         {
             multiShoots = true;
+            
             StartCoroutine(MultiShooting());
+            
             Destroy(collision.gameObject);
         }
     }

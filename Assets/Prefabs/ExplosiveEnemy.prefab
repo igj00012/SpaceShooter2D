@@ -110,6 +110,7 @@ MonoBehaviour:
   - {fileID: 3399809516143571232, guid: 35fa99f0c734263419f527c8a06ea060, type: 3}
   - {fileID: 498335727264160447, guid: 3b5a65873dbc9bc4f869e0758aee4c7e, type: 3}
   - {fileID: 881580891211944009, guid: 9ea9b54dc7f75ec4fa82e96a862f0a50, type: 3}
+  explosion: {fileID: 738497174732284955, guid: 8b3115b238e59de46ad080ad50309e1f, type: 3}
   explosionShoot: {fileID: 4731872405620503870, guid: e440d188169291e44b186429f758be16, type: 3}
 --- !u!70 &9118605286262542977
 CapsuleCollider2D:

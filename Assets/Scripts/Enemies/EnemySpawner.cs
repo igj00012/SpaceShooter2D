@@ -3,38 +3,26 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] GameObject[] enemiesPrefab;
+    [SerializeField] GameObject[] normalEnemiesPrefab;
+    [SerializeField] GameObject bossPrefab;
 
-    public enum SpawnMode
-    {
-        Line,
-        Points,
-    }
-
-    [SerializeField] SpawnMode spawnMode;
+    int bossesCount = 0;
 
     [SerializeField] Transform spawnLineTop;
     [SerializeField] Transform spawnLineBottom;
 
-    [SerializeField] Transform[] spawnPoints;
-
+    const int maxEnemiesOnScreen = 5;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (spawnMode == SpawnMode.Line)
-        {
-            StartCoroutine(LineSpawning());
-        }
-        else if(spawnMode == SpawnMode.Points)
-        {
-            int numPoints = spawnPoints.Length;
-            int j = Random.Range(0, numPoints);
+        StartCoroutine(LineSpawning());
+        StartCoroutine(BossSpawning());
+    }
 
-            Vector3 startPosition = spawnPoints[j].position;
-
-            int enemyIndex = Random.Range(0, enemiesPrefab.Length);
-            Instantiate(enemiesPrefab[enemyIndex], startPosition, Quaternion.identity);
-        }
+    float t = 0f;
+    private void Update()
+    {
+        t += Time.deltaTime;
     }
 
     IEnumerator LineSpawning()
@@ -42,21 +30,63 @@ public class EnemySpawner : MonoBehaviour
         Vector3 lineTop = spawnLineTop.position;
         Vector3 lineBottom = spawnLineBottom.position;
 
-        for (int i = 0; i < 5; ++i)
+        while (true)
         {
+            while (GetEnemiesAlive() >= maxEnemiesOnScreen)
+            {
+                yield return null;
+            }
+
             float t = Random.Range(0f, 1f);
             Vector3 startPosition = Vector3.Lerp(lineTop, lineBottom, t);
 
-            int enemyIndex = Random.Range(0, enemiesPrefab.Length);
-            Instantiate(enemiesPrefab[enemyIndex], startPosition, Quaternion.identity);
+            GameObject enemy = GetEnemyToSpawn();
+
+            Instantiate(enemy, startPosition, Quaternion.identity);
 
             yield return new WaitForSeconds(0.5f);
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    GameObject GetEnemyToSpawn()
     {
-        
+        if (t < 10)
+        {
+            return normalEnemiesPrefab[Random.Range(0, normalEnemiesPrefab.Length / 2)];
+        }
+        else if (t < 20)
+        {
+            return normalEnemiesPrefab[Random.Range(normalEnemiesPrefab.Length / 2, normalEnemiesPrefab.Length)];
+        }
+        else return normalEnemiesPrefab[Random.Range(0, normalEnemiesPrefab.Length)];
+    }
+
+    int GetEnemiesAlive()
+    {
+        return GameObject.FindGameObjectsWithTag("Enemy").Length;
+    }
+
+    const int maxBosses = 5;
+    float delayBetweenBosses = 30f;
+    IEnumerator BossSpawning()
+    {
+        if (bossesCount < maxBosses && t >= delayBetweenBosses)
+        {
+            Vector3 lineTop = spawnLineTop.position;
+            Vector3 lineBottom = spawnLineBottom.position;
+
+            float t = Random.Range(0f, 1f);
+            Vector3 startPosition = Vector3.Lerp(lineTop, lineBottom, t);
+
+            Instantiate(bossPrefab, startPosition, Quaternion.identity);
+
+            ++bossesCount;
+
+            yield return new WaitForSeconds(delayBetweenBosses);
+        }
+        else if (bossesCount == maxBosses)
+        {
+            GameObject.FindAnyObjectByType<UIManager>().GameWin();
+        }
     }
 }
