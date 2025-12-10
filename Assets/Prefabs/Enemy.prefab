@@ -111,9 +111,8 @@ MonoBehaviour:
   - {fileID: 3399809516143571232, guid: 35fa99f0c734263419f527c8a06ea060, type: 3}
   - {fileID: 498335727264160447, guid: 3b5a65873dbc9bc4f869e0758aee4c7e, type: 3}
   - {fileID: 881580891211944009, guid: 9ea9b54dc7f75ec4fa82e96a862f0a50, type: 3}
-  explosion: {fileID: 5639195296538309979, guid: 8b3115b238e59de46ad080ad50309e1f, type: 3}
-  speed: 3.5
-  damage: 2
+  speed: 2
+  damage: 1
 --- !u!50 &-2762393021528604725
 Rigidbody2D:
   serializedVersion: 5

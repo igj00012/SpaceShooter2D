@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExplosiveShoot : MonoBehaviour
 {
-    float lifeTime = 2f;
+    float lifeTime = 3f;
     [SerializeField] GameObject explosionArea;
     float damage = 2f;
 

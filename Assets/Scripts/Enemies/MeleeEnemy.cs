@@ -4,7 +4,7 @@ using UnityEngine;
 public class MeleeEnemy : EnemyBase
 {
     [Header("Movement")]
-    [SerializeField] float speed = 1f;
+    [SerializeField] float speed = 0.5f;
     Vector3 linearVelocity = Vector3.left;
 
     [Header("Damage")]

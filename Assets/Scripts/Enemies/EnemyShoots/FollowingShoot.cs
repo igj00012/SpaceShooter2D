@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FollowingShoot : MonoBehaviour
@@ -5,8 +6,8 @@ public class FollowingShoot : MonoBehaviour
     [SerializeField] float speed = 1f;
     GameObject target; // Player
 
-    float lifeTime = 2f;
-    float damage = 2f;
+    float lifeTime = 3f;
+    float damage = 3f;
 
     private void Start()
     {
@@ -17,8 +18,11 @@ public class FollowingShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = (target.transform.position - transform.position).normalized;
-        transform.position += direction * speed * Time.deltaTime;
+        if (!target.IsDestroyed())
+        {
+            Vector3 direction = (target.transform.position - transform.position).normalized;
+            transform.position += direction * speed * Time.deltaTime;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

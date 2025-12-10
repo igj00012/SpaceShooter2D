@@ -20,7 +20,6 @@ public class ShooterEnemy : EnemyBase
     float limitY = 0.8f;
     float rightLimit = 1.4f;
     float leftLimit = -0.6f;
-    float factor = 0.05f;
     bool movedOnX = false;
     // Update is called once per frame
     void Update()
@@ -44,6 +43,7 @@ public class ShooterEnemy : EnemyBase
     }
 
     float dir = 1f;
+    float factor = 0.5f;
     void MoveOnXAxis()
     {
         if (transform.position.x < leftLimit)

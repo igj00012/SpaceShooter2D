@@ -13,6 +13,7 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] float health = 10f;
     [SerializeField] GameObject multiShootPrefab;
+    [SerializeField] GameObject firePoint;
 
     float maxHealth;
 
@@ -120,7 +121,7 @@ public class PlayerSpaceShip : MonoBehaviour
     {
         if (!multiShoots)
         {
-            Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Instantiate(projectilePrefab, firePoint.transform.position, Quaternion.identity);
         }
     }
 
@@ -181,9 +182,9 @@ public class PlayerSpaceShip : MonoBehaviour
 
         while (currentTime < multiShootingTime)
         {
-            Instantiate(multiShootPrefab, transform.position, Quaternion.Euler(0, 0, -zRotation));
-            Instantiate(multiShootPrefab, transform.position, Quaternion.identity);
-            Instantiate(multiShootPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
+            Instantiate(multiShootPrefab, firePoint.transform.position, Quaternion.Euler(0, 0, -zRotation));
+            Instantiate(multiShootPrefab, firePoint.transform.position, Quaternion.identity);
+            Instantiate(multiShootPrefab, firePoint.transform.position, Quaternion.Euler(0, 0, zRotation));
 
             yield return new WaitForSeconds(delayTime);
 

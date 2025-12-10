@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExplosionArea : MonoBehaviour
 {
-    float initialDamage = 2f;
+    float initialDamage = 1f;
     float damageOverTime = 0.2f;
     float lifeTime = 3f;
 

@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayerMultiShoot : MonoBehaviour
 {
-    float speed = 1.5f;
+    float speed = 2f;
     float lifeTime = 4f;
-    float damage = 3f;
+    float damage = 2f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
