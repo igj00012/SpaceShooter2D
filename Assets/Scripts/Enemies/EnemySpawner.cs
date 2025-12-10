@@ -6,12 +6,12 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] GameObject[] normalEnemiesPrefab;
     [SerializeField] GameObject bossPrefab;
 
-    int bossesCount = 0;
-
     [SerializeField] Transform spawnLineTop;
     [SerializeField] Transform spawnLineBottom;
 
     const int maxEnemiesOnScreen = 5;
+    int bossesCount = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,18 +19,19 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(BossSpawning());
     }
 
-    float t = 0f;
+    float timer = 0f;
     private void Update()
     {
-        t += Time.deltaTime;
+        timer += Time.deltaTime;
     }
 
+    bool stopSpawn = false;
     IEnumerator LineSpawning()
     {
         Vector3 lineTop = spawnLineTop.position;
         Vector3 lineBottom = spawnLineBottom.position;
 
-        while (true)
+        while (!stopSpawn)
         {
             while (GetEnemiesAlive() >= maxEnemiesOnScreen)
             {
@@ -46,15 +47,19 @@ public class EnemySpawner : MonoBehaviour
 
             yield return new WaitForSeconds(0.5f);
         }
+
+        yield return new WaitUntil(() => GetEnemiesAlive() == 0);
+
+        GameObject.FindAnyObjectByType<UIManager>().GameWin();
     }
 
     GameObject GetEnemyToSpawn()
     {
-        if (t < 10)
+        if (timer < 10)
         {
             return normalEnemiesPrefab[Random.Range(0, normalEnemiesPrefab.Length / 2)];
         }
-        else if (t < 20)
+        else if (timer < 20)
         {
             return normalEnemiesPrefab[Random.Range(normalEnemiesPrefab.Length / 2, normalEnemiesPrefab.Length)];
         }
@@ -70,8 +75,10 @@ public class EnemySpawner : MonoBehaviour
     float delayBetweenBosses = 30f;
     IEnumerator BossSpawning()
     {
-        if (bossesCount < maxBosses && t >= delayBetweenBosses)
+        if (bossesCount < maxBosses)
         {
+            yield return new WaitForSeconds(delayBetweenBosses);
+
             Vector3 lineTop = spawnLineTop.position;
             Vector3 lineBottom = spawnLineBottom.position;
 
@@ -81,12 +88,10 @@ public class EnemySpawner : MonoBehaviour
             Instantiate(bossPrefab, startPosition, Quaternion.identity);
 
             ++bossesCount;
-
-            yield return new WaitForSeconds(delayBetweenBosses);
         }
         else if (bossesCount == maxBosses)
         {
-            GameObject.FindAnyObjectByType<UIManager>().GameWin();
+            stopSpawn = true;
         }
     }
 }
