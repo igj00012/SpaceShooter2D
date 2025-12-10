@@ -24,6 +24,8 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] HPManager hpmanager;
     [SerializeField] GameObject shield;
 
+    Rigidbody2D rb;
+
     // Initialize health
     private void Start()
     {
@@ -34,6 +36,7 @@ public class PlayerSpaceShip : MonoBehaviour
 
         maxHealth = health;
         shield.SetActive(false);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Activate input actions
@@ -66,7 +69,7 @@ public class PlayerSpaceShip : MonoBehaviour
         linearVelocity = Mathf.Clamp(linearVelocity, 0, maxSpeed);
         currentVelocity = currentVelocity.normalized * linearVelocity;
 
-        transform.Translate(currentVelocity * Time.deltaTime);
+        rb.linearVelocity = currentVelocity;
 
         Debug.Log("Health: " + health);
     }
