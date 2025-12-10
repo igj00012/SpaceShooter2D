@@ -9,6 +9,10 @@ public class EnemyBase : MonoBehaviour
     [Header("Buffs")]
     [SerializeField] GameObject[] buffsArray;
 
+    float healProb = 0.4f;
+    float shieldProb = 0.2f;
+    float multiProb = 0.1f;
+
     // Method to update the health of the enemy
     public void TakeDamage(float dmg)
     {
@@ -17,14 +21,34 @@ public class EnemyBase : MonoBehaviour
         // Before death, spawns a random buff or not
         if (health <= 0)
         {
-            int buffIndex = Random.Range(-1, buffsArray.Length);
+            float random = Random.Range(0f, 1f);
 
-            if (buffIndex != -1)
+            if (random <= healProb)
             {
-                Instantiate(buffsArray[buffIndex], transform.position, Quaternion.identity);
+                SpawnBuff("HealingPotion");
+            }
+            else if (random <= (healProb + shieldProb))
+            {
+                SpawnBuff("Shield");
+            }
+            else if (random <= (healProb + shieldProb + multiProb))
+            {
+                SpawnBuff("MultiShoot");
             }
 
             Destroy(gameObject);
+        }
+    }
+
+    void SpawnBuff(string tag)
+    {
+        for (int i = 0; i < buffsArray.Length; ++i)
+        {
+            if (buffsArray[i].CompareTag(tag))
+            {
+                Instantiate(buffsArray[i], transform.position, Quaternion.identity);
+                return;
+            }
         }
     }
 
