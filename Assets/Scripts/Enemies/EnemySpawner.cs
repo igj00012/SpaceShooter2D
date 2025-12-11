@@ -72,10 +72,10 @@ public class EnemySpawner : MonoBehaviour
     }
 
     const int maxBosses = 5;
-    float delayBetweenBosses = 30f;
+    float delayBetweenBosses = 25f;
     IEnumerator BossSpawning()
     {
-        if (bossesCount < maxBosses)
+        while (bossesCount < maxBosses)
         {
             yield return new WaitForSeconds(delayBetweenBosses);
 
@@ -88,10 +88,10 @@ public class EnemySpawner : MonoBehaviour
             Instantiate(bossPrefab, startPosition, Quaternion.identity);
 
             ++bossesCount;
+
+            Debug.Log("Bosses spawned: " + bossesCount);
         }
-        else if (bossesCount == maxBosses)
-        {
-            stopSpawn = true;
-        }
+
+        stopSpawn = true;
     }
 }

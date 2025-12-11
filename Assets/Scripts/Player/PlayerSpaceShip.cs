@@ -25,7 +25,19 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] HPManager hpmanager;
     [SerializeField] GameObject shield;
 
+    [Header("Sounds")]
+    [SerializeField] AudioClip healing;
+    [SerializeField] AudioClip shieldSFX;
+    [SerializeField] AudioClip shootSFX;
+    [SerializeField] AudioClip multiShootSFX;
+    [SerializeField] AudioClip death;
+
     Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Initialize health
     private void Start()
@@ -37,7 +49,6 @@ public class PlayerSpaceShip : MonoBehaviour
 
         maxHealth = health;
         shield.SetActive(false);
-        rb = GetComponent<Rigidbody2D>();
     }
 
     // Activate input actions
@@ -122,6 +133,8 @@ public class PlayerSpaceShip : MonoBehaviour
         if (!multiShoots)
         {
             Instantiate(projectilePrefab, firePoint.transform.position, Quaternion.identity);
+
+            AudioManager.instance.PlaySFX(shootSFX);
         }
     }
 
@@ -138,6 +151,8 @@ public class PlayerSpaceShip : MonoBehaviour
                 hpmanager.UpdateHP(health);
 
                 Destroy(collision.gameObject);
+
+                AudioManager.instance.PlaySFX(healing);
             }
         }
         else if (collision.CompareTag("Shield"))
@@ -147,6 +162,8 @@ public class PlayerSpaceShip : MonoBehaviour
             StartCoroutine(Invulnerability());
             
             Destroy(collision.gameObject);
+
+            AudioManager.instance.PlaySFX(shieldSFX);
         }
         else if (collision.CompareTag("MultiShoot"))
         {
@@ -186,6 +203,8 @@ public class PlayerSpaceShip : MonoBehaviour
             Instantiate(multiShootPrefab, firePoint.transform.position, Quaternion.identity);
             Instantiate(multiShootPrefab, firePoint.transform.position, Quaternion.Euler(0, 0, zRotation));
 
+            AudioManager.instance.PlaySFX(multiShootSFX);
+
             yield return new WaitForSeconds(delayTime);
 
             currentTime += delayTime;
@@ -196,6 +215,8 @@ public class PlayerSpaceShip : MonoBehaviour
 
     private void OnDestroy()
     {
+        AudioManager.instance.PlaySFX(death);
+
         GameObject.FindAnyObjectByType<UIManager>().GameOver();
     }
 }

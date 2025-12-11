@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject endGame;
     [SerializeField] TextMeshProUGUI finalMessage;
 
+    [SerializeField] AudioClip clip;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,11 +33,15 @@ public class UIManager : MonoBehaviour
 
     public void Restart()
     {
+        AudioManager.instance.PlaySFX(clip);
+
         SceneManager.LoadScene(1);
     }
 
     public void Exit() 
     {
+        AudioManager.instance.PlaySFX(clip);
+
         SceneManager.LoadScene(0);
     }
 }

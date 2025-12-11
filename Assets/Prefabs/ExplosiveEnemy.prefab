@@ -105,12 +105,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplosiveEnemy
   health: 7
-  delay: 4
+  delay: 3
   buffsArray:
   - {fileID: 3399809516143571232, guid: 35fa99f0c734263419f527c8a06ea060, type: 3}
   - {fileID: 498335727264160447, guid: 3b5a65873dbc9bc4f869e0758aee4c7e, type: 3}
   - {fileID: 881580891211944009, guid: 9ea9b54dc7f75ec4fa82e96a862f0a50, type: 3}
+  death: {fileID: 8300000, guid: 2ffa71005cee9ec4ba76cb5949ff7150, type: 3}
+  deathParticles: {fileID: 6276547660073076793, guid: ea25cc9e1dfa26d4182600f06c6d5b96, type: 3}
   explosionShoot: {fileID: 4731872405620503870, guid: e440d188169291e44b186429f758be16, type: 3}
+  clip: {fileID: 8300000, guid: 64446050a31d57d4ca6c0bc41629ac06, type: 3}
 --- !u!70 &9118605286262542977
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

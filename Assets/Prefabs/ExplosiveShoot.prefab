@@ -169,3 +169,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplosiveShoot
   explosionArea: {fileID: 9178078808009064404, guid: 60ec732073342e947a203b14652ae0aa, type: 3}
+  clip: {fileID: 8300000, guid: 2ffa71005cee9ec4ba76cb5949ff7150, type: 3}

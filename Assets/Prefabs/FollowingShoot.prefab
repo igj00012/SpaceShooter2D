@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowingShoot
   speed: 2
+  clip: {fileID: 8300000, guid: 83e67416ecff6af4bb61fd4cd76871ed, type: 3}
 --- !u!50 &-616185577457575743
 Rigidbody2D:
   serializedVersion: 5

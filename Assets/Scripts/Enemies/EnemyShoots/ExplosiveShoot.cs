@@ -6,6 +6,13 @@ public class ExplosiveShoot : MonoBehaviour
     [SerializeField] GameObject explosionArea;
     float damage = 2f;
 
+    [SerializeField] AudioClip clip;
+
+    private void Start()
+    {
+        lifeTime = Random.Range(1.5f, 3f);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -16,6 +23,8 @@ public class ExplosiveShoot : MonoBehaviour
         }
         else
         {
+            AudioManager.instance.PlaySFX(clip);
+
             Instantiate(explosionArea, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

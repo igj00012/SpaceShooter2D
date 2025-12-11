@@ -469,6 +469,11 @@ MonoBehaviour:
   shoot: {fileID: 1075335348807499094, guid: 16881c8a61d55c645a17fbcd29082c90, type: 3}
   hpmanager: {fileID: 197996914}
   shield: {fileID: 215787375}
+  healing: {fileID: 8300000, guid: cb2d1cf8431ac484994d6a41c74ab154, type: 3}
+  shieldSFX: {fileID: 8300000, guid: babdeccdca4dc9242b5d0d20ad223589, type: 3}
+  shootSFX: {fileID: 8300000, guid: 64446050a31d57d4ca6c0bc41629ac06, type: 3}
+  multiShootSFX: {fileID: 8300000, guid: 2188e8f52d54ee64087542fded22fa40, type: 3}
+  death: {fileID: 8300000, guid: 2ffa71005cee9ec4ba76cb5949ff7150, type: 3}
 --- !u!61 &35078377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -745,6 +750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   endGame: {fileID: 549260102}
   finalMessage: {fileID: 2106217}
+  clip: {fileID: 8300000, guid: 002db85e27a2d174e995395d8441b723, type: 3}
 --- !u!4 &186589102
 Transform:
   m_ObjectHideFlags: 0
@@ -822,6 +828,7 @@ MonoBehaviour:
   - {fileID: 384024491}
   fullHeart: {fileID: 7536178829482075484, guid: a2822775a3bf36a47bce08c66a9529b6, type: 3}
   emptyHeart: {fileID: 742436708124012736, guid: a2822775a3bf36a47bce08c66a9529b6, type: 3}
+  hit: {fileID: 8300000, guid: d00a31ba78c16b443b4fd77d75e87990, type: 3}
 --- !u!114 &197996915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3036,7 +3043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   speed: 10
   direction: {x: -1, y: 0, z: 0}
-  widthImage: 3.2
+  imageWidth: 3.2
 --- !u!212 &1785683495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3395,6 +3402,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2101533798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101533799}
+  - component: {fileID: 2101533800}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101533799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101533798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78937, y: 0, z: -1.36268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101533800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101533798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c910806644d9c444199c5c6569f54a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  background: {fileID: 8300000, guid: 4ddb56ed93e35c24ebbb8b0c355c9fa7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3411,3 +3463,4 @@ SceneRoots:
   - {fileID: 128604035}
   - {fileID: 375839779}
   - {fileID: 1785683496}
+  - {fileID: 2101533799}

@@ -10,6 +10,8 @@ public class HPManager : MonoBehaviour
     [SerializeField] Sprite fullHeart;
     [SerializeField] Sprite emptyHeart;
 
+    [SerializeField] AudioClip hit;
+
     private float maxHealth = 10;
 
     public void UpdateHP(float currentHP)
@@ -27,6 +29,8 @@ public class HPManager : MonoBehaviour
             else
             {
                 hearts[i].sprite = emptyHeart;
+
+                AudioManager.instance.PlaySFX(hit);
             }
         }
     }

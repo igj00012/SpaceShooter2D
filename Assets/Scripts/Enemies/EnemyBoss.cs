@@ -11,6 +11,9 @@ public class EnemyBoss : EnemyBase
     [SerializeField] Transform laserFirePoint;
     [SerializeField] Transform[] followingShootFirePoint;
 
+    [SerializeField] AudioClip laser;
+    [SerializeField] AudioClip followingShoot;
+
     float delayLaser = 4f;
     bool isLaserActive = false;
 
@@ -27,6 +30,8 @@ public class EnemyBoss : EnemyBase
             isLaserActive = true;
             Instantiate(laserPrefab, laserFirePoint.position, Quaternion.identity);
 
+            AudioManager.instance.PlaySFX(laser);
+
             yield return new WaitForSeconds(delayLaser);
             isLaserActive = false;
 
@@ -37,6 +42,7 @@ public class EnemyBoss : EnemyBase
                 {
                     for (int i = 0; i < followingShootFirePoint.Length; i++)
                     {
+                        AudioManager.instance.PlaySFX(followingShoot);
                         Instantiate(followingShootPrefab, followingShootFirePoint[i].position, Quaternion.identity);
                     }
                 }

@@ -10,6 +10,8 @@ public class ExplosiveEnemy : EnemyBase
     [Header("Shooting")]
     [SerializeField] GameObject explosionShoot;
 
+    [SerializeField] AudioClip clip;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,6 +39,8 @@ public class ExplosiveEnemy : EnemyBase
     {
         while (true)
         {
+            AudioManager.instance.PlaySFX(clip);
+
             Instantiate(explosionShoot, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(delay);
         }

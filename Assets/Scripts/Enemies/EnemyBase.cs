@@ -9,6 +9,9 @@ public class EnemyBase : MonoBehaviour
     [Header("Buffs")]
     [SerializeField] GameObject[] buffsArray;
 
+    [Header("Sounds")]
+    [SerializeField] AudioClip death;
+
     float healProb = 0.4f;
     float shieldProb = 0.2f;
     float multiProb = 0.1f;
@@ -67,5 +70,10 @@ public class EnemyBase : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
+    }
+
+    private void OnDestroy()
+    {
+        AudioManager.instance.PlaySFX(death);
     }
 }

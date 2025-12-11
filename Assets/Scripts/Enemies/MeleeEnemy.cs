@@ -4,14 +4,18 @@ using UnityEngine;
 public class MeleeEnemy : EnemyBase
 {
     [Header("Movement")]
-    [SerializeField] float speed = 0.5f;
+    float speed = 0.5f;
     Vector3 linearVelocity = Vector3.left;
 
     [Header("Damage")]
     [SerializeField] float damage = 0.5f;
 
+    private void Start()
+    {
+        speed = Random.Range(1f, 3f);
+    }
+
     float limitX = 1.5f;
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(linearVelocity * speed * Time.deltaTime);

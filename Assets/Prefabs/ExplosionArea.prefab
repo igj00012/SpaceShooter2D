@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363f8f8a3dd49ea41a9b16973e597d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplosionArea
+  clip: {fileID: 8300000, guid: 2ffa71005cee9ec4ba76cb5949ff7150, type: 3}
 --- !u!50 &4941464310989588009
 Rigidbody2D:
   serializedVersion: 5

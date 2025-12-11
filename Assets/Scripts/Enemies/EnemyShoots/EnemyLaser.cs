@@ -5,15 +5,9 @@ public class EnemyLaser : MonoBehaviour
     float lifeTime = 5;
     float damage = 0.2f;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        lifeTime -= Time.deltaTime;
-
-        if (lifeTime <= 0)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject, lifeTime);
     }
 
     private void OnTriggerStay2D(Collider2D collision)

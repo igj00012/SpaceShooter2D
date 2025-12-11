@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25099e68db2af27478d0d2aca9d0410c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLaser
+  clip: {fileID: 8300000, guid: a11c3214f615d7247b5fcc8a27eb9232, type: 3}
 --- !u!61 &8869019058389222450
 BoxCollider2D:
   m_ObjectHideFlags: 0

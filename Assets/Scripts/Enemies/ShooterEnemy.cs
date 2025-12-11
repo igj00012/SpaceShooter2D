@@ -9,6 +9,8 @@ public class ShooterEnemy : EnemyBase
     [Header("Shooting")]
     [SerializeField] GameObject shootPrefab;
 
+    [SerializeField] AudioClip clip;
+
     Vector3 linearVelocity = Vector3.up;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -66,6 +68,7 @@ public class ShooterEnemy : EnemyBase
     {
         while (true)
         {
+            AudioManager.instance.PlaySFX(clip);
             Instantiate(shootPrefab, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(delay);
         }
