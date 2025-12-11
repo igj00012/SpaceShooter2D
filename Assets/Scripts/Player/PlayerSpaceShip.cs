@@ -96,7 +96,7 @@ public class PlayerSpaceShip : MonoBehaviour
         move.action.performed -= OnMove;
         move.action.canceled -= OnMove;
 
-        shoot.action.started += OnShoot;
+        shoot.action.started -= OnShoot;
     }
 
     // Method that decrement current health
@@ -130,6 +130,8 @@ public class PlayerSpaceShip : MonoBehaviour
     bool multiShoots = false;
     private void OnShoot(InputAction.CallbackContext context)
     {
+        if (projectilePrefab == null || firePoint == null) return;
+
         if (!multiShoots)
         {
             Instantiate(projectilePrefab, firePoint.transform.position, Quaternion.identity);

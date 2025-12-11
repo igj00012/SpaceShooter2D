@@ -12,15 +12,11 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartButton()
     {
-        AudioManager.instance.PlaySFX(clip);
-
         SceneManager.LoadScene(1);
     }
 
     public void Exit()
     {
-        AudioManager.instance.PlaySFX(clip);
-
         Application.Quit();
     }
 }
